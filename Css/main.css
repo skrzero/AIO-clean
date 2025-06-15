@@ -1,0 +1,18 @@
+/* Error: $description: white is not a string.
+ *     ,
+ * 149 |     color: var(--notif-date-color)color(white);
+ *     |                                   ^^^^^^^^^^^^
+ *     '
+ *   Css\_style.scss 149:35  @import
+ *   Css\main.scss 1:9       root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: $description: white is not a string.\a     \2577 \a 149 \2502      color: var(--notif-date-color)color(white);\d\a     \2502                                    ^^^^^^^^^^^^\a     \2575 \a   Css\\_style.scss 149:35  @import\a   Css\\main.scss 1:9       root stylesheet";
+}
